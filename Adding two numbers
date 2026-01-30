@@ -1,0 +1,6 @@
+arr = [10, 20]
+total = 0
+
+for i in range(len(arr)):
+    total = total + arr[i]
+print("Sum =", total)
