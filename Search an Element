@@ -1,0 +1,11 @@
+arr = [10, 20, 30, 40, 50]
+key = 30
+found = False
+for i in arr:
+    if i == key:
+        found = True
+
+if found:
+    print("Element Found")
+else:
+    print("Not Found")

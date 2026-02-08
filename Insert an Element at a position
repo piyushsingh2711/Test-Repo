@@ -1,0 +1,5 @@
+arr = [10, 20, 30, 40]
+pos = 2
+num = 25
+arr.insert(pos, num)
+print(arr)

@@ -1,0 +1,7 @@
+a = [1,2,3]
+b = [3,4,5]
+union = []
+for i in a + b:
+    if i not in union:
+        union.append(i)
+print(union)
